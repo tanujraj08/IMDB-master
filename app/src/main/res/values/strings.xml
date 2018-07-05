@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IMDB</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="upcoming_movies">Upcoming</string>
+    <string name="latest_movies">Latest</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="favorites">My Favorites</string>
+    <string name="watchList">My WatchList</string>
+    <string name="refresh">Refresh</string>
+    <string name="poster">Movie Poster</string>
+    <string name="popularity">Popularity :</string>
+
+</resources>

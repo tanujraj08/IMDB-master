@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:icon="@drawable/export"
+        android:id="@+id/mnuExport"
+        android:title="Options"
+        android:menuCategory="secondary"
+        app:showAsAction="always">
+        <menu>
+            <item android:title="@string/most_popular" android:menuCategory="secondary"/>
+            <item android:title="@string/upcoming_movies" android:menuCategory="secondary"/>
+            <item android:title="@string/latest_movies" android:menuCategory="secondary"/>
+            <item android:title="@string/now_playing" android:menuCategory="secondary"/>
+            <item android:title="Top Rated" android:menuCategory="secondary"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/favorites"/>
+    <item android:title="@string/watchList"/>
+    <item android:title="@string/refresh"/>
+</menu>

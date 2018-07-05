@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/detailsPosterImageView"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/detailsTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/detailsPosterImageView"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/detailsPosterImageView"
+        android:layout_toRightOf="@+id/detailsPosterImageView"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/detailsRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/detailsTitleTextView"
+        android:max="10" />
+
+    <TextView
+        android:id="@+id/detailsDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detailsTitleTextView"
+        android:layout_alignStart="@+id/detailsTitleTextView"
+        android:layout_below="@+id/detailsRatingBar"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/detailsReleaseDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detailsDescriptionTextView"
+        android:layout_alignStart="@+id/detailsDescriptionTextView"
+        android:layout_below="@+id/detailsDescriptionTextView"
+        android:layout_marginTop="11dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/detailsBudgetTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detailsPosterImageView"
+        android:layout_alignStart="@+id/detailsPosterImageView"
+        android:layout_below="@+id/detailsPosterImageView"
+        android:layout_marginTop="11dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/detailsRevenueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detailsDescrTextView"
+        android:layout_alignStart="@+id/detailsDescrTextView"
+        android:layout_below="@+id/detailsBudgetTextView"
+        android:layout_marginTop="13dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/detailsDescrTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detailsPosterImageView"
+        android:layout_alignStart="@+id/detailsPosterImageView"
+        android:layout_below="@+id/detailsRevenueTextView"
+        android:layout_marginTop="17dp"
+        android:text="TextView" />
+</RelativeLayout>
